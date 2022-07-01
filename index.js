@@ -8,6 +8,7 @@ video.src = "Big_Buck_Bunny_720_10s_2MB.mp4"
 video.autoPlay = true
 video.loop = true
 video.muted = true
+video.playsInline = true
 
 video.onerror = () => {
   log.innerHTML += video.error.message
